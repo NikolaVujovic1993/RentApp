@@ -1,0 +1,9 @@
+C:\Users\Acer\source\repos\RentApp\DomainModels\bin\Debug\netcoreapp3.1\DomainModels.deps.json
+C:\Users\Acer\source\repos\RentApp\DomainModels\bin\Debug\netcoreapp3.1\DomainModels.dll
+C:\Users\Acer\source\repos\RentApp\DomainModels\bin\Debug\netcoreapp3.1\DomainModels.pdb
+C:\Users\Acer\source\repos\RentApp\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.csprojAssemblyReference.cache
+C:\Users\Acer\source\repos\RentApp\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.AssemblyInfoInputs.cache
+C:\Users\Acer\source\repos\RentApp\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.AssemblyInfo.cs
+C:\Users\Acer\source\repos\RentApp\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\RentApp\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.dll
+C:\Users\Acer\source\repos\RentApp\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.pdb
