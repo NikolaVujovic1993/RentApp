@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Domain.Migrations
 {
     [DbContext(typeof(AIContext))]
-    [Migration("20200629184549_initial")]
-    partial class initial
+    [Migration("20200706175700_dataseed")]
+    partial class dataseed
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

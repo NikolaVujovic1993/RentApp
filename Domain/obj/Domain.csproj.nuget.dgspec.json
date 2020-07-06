@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Acer\\source\\repos\\RentApp\\Domain\\Domain.csproj": {}
+    "C:\\Users\\Acer\\Desktop\\ASP\\AS\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Acer\\source\\repos\\RentApp\\DomainModels\\DomainModels.csproj": {
+    "C:\\Users\\Acer\\Desktop\\ASP\\AS\\DomainModels\\DomainModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\source\\repos\\RentApp\\DomainModels\\DomainModels.csproj",
+        "projectUniqueName": "C:\\Users\\Acer\\Desktop\\ASP\\AS\\DomainModels\\DomainModels.csproj",
         "projectName": "DomainModels",
-        "projectPath": "C:\\Users\\Acer\\source\\repos\\RentApp\\DomainModels\\DomainModels.csproj",
+        "projectPath": "C:\\Users\\Acer\\Desktop\\ASP\\AS\\DomainModels\\DomainModels.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer\\source\\repos\\RentApp\\DomainModels\\obj\\",
+        "outputPath": "C:\\Users\\Acer\\Desktop\\ASP\\AS\\DomainModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\Acer\\source\\repos\\RentApp\\Domain\\Domain.csproj": {
+    "C:\\Users\\Acer\\Desktop\\ASP\\AS\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\source\\repos\\RentApp\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Acer\\Desktop\\ASP\\AS\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Acer\\source\\repos\\RentApp\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Acer\\Desktop\\ASP\\AS\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer\\source\\repos\\RentApp\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Acer\\Desktop\\ASP\\AS\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -85,8 +85,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Acer\\source\\repos\\RentApp\\DomainModels\\DomainModels.csproj": {
-                "projectPath": "C:\\Users\\Acer\\source\\repos\\RentApp\\DomainModels\\DomainModels.csproj"
+              "C:\\Users\\Acer\\Desktop\\ASP\\AS\\DomainModels\\DomainModels.csproj": {
+                "projectPath": "C:\\Users\\Acer\\Desktop\\ASP\\AS\\DomainModels\\DomainModels.csproj"
               }
             }
           }

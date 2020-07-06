@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using Application.DataTransfer.ResponseDTO;
+using AutoMapper;
 using DomainModels;
 using System;
 using System.Collections.Generic;
@@ -11,8 +12,10 @@ namespace RentApp.Helpers.MapperProfiles
     {
         public VehicleProfile()
         {
-            CreateMap<Vehicle, Vehicle>();
-            
+            CreateMap<Vehicle, VehicleResponseDTO>()
+                 .ForMember(dest => dest.VehicleBrand, opt => opt.MapFrom(b => b.Brand.Name))
+                 .ForMember(dest => dest.VehicleType, opt => opt.MapFrom(t => t.VehicleType.Name));
+
         }
     }
 }

@@ -6,6 +6,7 @@ using Application.Commands.VehicleCommands;
 using Application.DataTransfer.ResponseDTO;
 using Application.Searches;
 using Domain;
+using DomainModels;
 using Microsoft.EntityFrameworkCore;
 
 namespace Implementation.VehicleCommands
@@ -16,7 +17,7 @@ namespace Implementation.VehicleCommands
         {
         }
 
-        public IEnumerable<VehicleResponseDTO> Execute(VehicleSearch request)
+        public IEnumerable<Vehicle> Execute(VehicleSearch request)
         {
             var keyword = request.Keyword;
             var query = AiContext.Vehicles
@@ -25,19 +26,19 @@ namespace Implementation.VehicleCommands
             if (keyword != null)
                 query = query
                     .Where(x => x.Model.ToLower().Contains(keyword.ToLower()));
-            return query
-                .Select(x => new VehicleResponseDTO
-                {
-                    Id = x.Id,
-                    Model = x.Model,
-                    CostPerDay = x.CostPerDay,
-                    Color = x.Color,
-                    FuelTankCapacity = x.FuelTankCapacity,
-                    VehicleType = x.VehicleType.Name,
-                    VehicleBrand = x.Brand.Name,
-					Automatic = x.Automatic,
-					Rented = x.Rented
-                });
+            return query;
+     //           .Select(x => new VehicleResponseDTO
+     //           {
+     //               Id = x.Id,
+     //               Model = x.Model,
+     //               CostPerDay = x.CostPerDay,
+     //               Color = x.Color,
+     //               FuelTankCapacity = x.FuelTankCapacity,
+     //               VehicleType = x.VehicleType.Name,
+     //               VehicleBrand = x.Brand.Name,
+					//Automatic = x.Automatic,
+					//Rented = x.Rented
+     //           });
         }
     }
 }

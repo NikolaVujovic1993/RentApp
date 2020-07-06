@@ -42,100 +42,100 @@ namespace Domain
             modelBuilder.ApplyConfiguration(new RentExtraAddonConfiguration());
             modelBuilder.ApplyConfiguration(new StatusConfiguration());
             modelBuilder.ApplyConfiguration(new LogConfiguration());
-			//         modelBuilder.Entity<Role>().HasData(new Role
-			//         {
-			//             Id = 8,
-			//             Name = "Default group"
-			//         });
-			//         modelBuilder.Entity<User>().HasData(new User
-			//         {
-			//             Id = 8,
-			//             FirstName = "Predrag",
-			//             LastName = "Crnogorac",
-			//             Username = "admin",
-			//	Password = "admin",
-			//             RoleId = 8
-			//         });
-			//         modelBuilder.Entity<Brand>()
-			//             .HasData(new Brand
-			//             {
-			//                 Id = 8,
-			//                 Name = "Default brand"
-			//             });
-			//         modelBuilder.Entity<VehicleType>()
-			//             .HasData(new VehicleType
-			//             {
-			//                 Id = 8,
-			//                 Name = "Default type"
-			//             });
-			//         modelBuilder.Entity<Vehicle>()
-			//             .HasData(new Vehicle
-			//             {
-			//                 Id = 8,
-			//                 Model = "Default vehicle",
-			//                 FuelTankCapacity = 40,
-			//                 CostPerDay = 20,
-			//                 BrandId = 8,
-			//                 VehicleTypeId = 8,					
-			//                 Color = "Blue"
-			//             });
-			//         modelBuilder.Entity<ExtraAddon>()
-			//             .HasData(new ExtraAddon
-			//             {
-			//                 Id = 8,
-			//                 Name = "Default add-on",
-			//                 Price = 20
-			//             });
-			//modelBuilder.Entity<Location>()
-			//	.HasData(new Location
-			//	{
-			//		Id = 8,
-			//		Adress = "Default location",
-			//		Price = 10
-			//	});
-			//modelBuilder.Entity<Customer>()
-			//	.HasData(new Customer
-			//	{
-			//		Id = 8,
-			//		FirstName = "Predrag",
-			//		LastName = "Crnogorac",
-			//		Email = "pbcrnogorac@gmail.com",
-			//		PhoneNumber = "063/5551112",
-			//		Birthday = new DateTime(1992, 6, 21)
-			//	});
-			//modelBuilder.Entity<RentStatus>()
-			//	.HasData(new RentStatus
-			//	{
-			//		Id = 8,
-			//		Name = "Default stats"
-			//	});
-			//modelBuilder.Entity<RentExtraAddon>()
-			//	.HasData(new RentExtraAddon
-			//	{
-			//		RentId = 8,
-			//		ExtraAddonId = 8,
-			//		Price = 20
-			//	});
-			//modelBuilder.Entity<Rent>()
-			//	.HasData(new Rent
-			//	{
-			//		Id = 8,
-			//		CustomerId = 8,
-			//		UserId = 12,
-			//		StatusId = 8,
-			//		VehicleId = 8,
-			//		LocationId = 8,
-			//		DropLocationId = 8,
-			//		FirstName = "Predrag",
-			//		LastName = "Crnogorac",
-			//		Email = "pbcrnogorac@gmail.com",
-			//		PickDate = DateTime.Now,
-			//		DropDate = DateTime.Now,
-			//		PickAdress = "Svetolika Rankovica 2a",
-			//		DropAdress = "Svetolika Randovica 2a",
-			//		VehicleCostPerDay = 20,
-			//		TotallPrice = 40
-			//	});
-		}
+            //modelBuilder.Entity<Role>().HasData(new Role
+            //{
+            //    Id = 8,
+            //    Name = "Default group"
+            //});
+            //modelBuilder.Entity<User>().HasData(new User
+            //{
+            //    Id = 8,
+            //    FirstName = "Nikola",
+            //    LastName = "Vujovic",
+            //    Username = "admin",
+            //    Password = "admin",
+            //    RoleId = 8
+            //});
+            //modelBuilder.Entity<Brand>()
+            //    .HasData(new Brand
+            //    {
+            //        Id = 8,
+            //        Name = "Default brand"
+            //    });
+            //modelBuilder.Entity<VehicleType>()
+            //    .HasData(new VehicleType
+            //    {
+            //        Id = 8,
+            //        Name = "Default type"
+            //    });
+            //modelBuilder.Entity<Vehicle>()
+            //    .HasData(new Vehicle
+            //    {
+            //        Id = 8,
+            //        Model = "Default vehicle",
+            //        FuelTankCapacity = 40,
+            //        CostPerDay = 20,
+            //        BrandId = 8,
+            //        VehicleTypeId = 8,
+            //        Color = "Blue"
+            //    });
+            //modelBuilder.Entity<ExtraAddon>()
+            //    .HasData(new ExtraAddon
+            //    {
+            //        Id = 8,
+            //        Name = "Default add-on",
+            //        Price = 20
+            //    });
+            //modelBuilder.Entity<Location>()
+            //    .HasData(new Location
+            //    {
+            //        Id = 8,
+            //        Adress = "Default location",
+            //        Price = 10
+            //    });
+            //modelBuilder.Entity<Customer>()
+            //    .HasData(new Customer
+            //    {
+            //        Id = 8,
+            //        FirstName = "Nikola",
+            //        LastName = "Vujovic",
+            //        Email = "vujovicnikola07@gmail.com",
+            //        PhoneNumber = "063/5551112",
+            //        Birthday = new DateTime(1993, 2, 2)
+            //    });
+            //modelBuilder.Entity<RentStatus>()
+            //    .HasData(new RentStatus
+            //    {
+            //        Id = 8,
+            //        Name = "Default stats"
+            //    });
+            //modelBuilder.Entity<RentExtraAddon>()
+            //    .HasData(new RentExtraAddon
+            //    {
+            //        RentId = 8,
+            //        ExtraAddonId = 8,
+            //        Price = 20
+            //    });
+            //modelBuilder.Entity<Rent>()
+            //    .HasData(new Rent
+            //    {
+            //        Id = 8,
+            //        CustomerId = 8,
+            //        UserId = 12,
+            //        StatusId = 8,
+            //        VehicleId = 8,
+            //        LocationId = 8,
+            //        DropLocationId = 8,
+            //        FirstName = "Nikola",
+            //        LastName = "Vujovic",
+            //        Email = "nikolavujovic07@gmail.com",
+            //        PickDate = DateTime.Now,
+            //        DropDate = DateTime.Now,
+            //        PickAdress = "Svetolika Rankovica 2a",
+            //        DropAdress = "Svetolika Randovica 2a",
+            //        VehicleCostPerDay = 20,
+            //        TotallPrice = 40
+            //    });
+        }
     }
 }

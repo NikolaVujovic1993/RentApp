@@ -10,3 +10,15 @@ C:\Users\Acer\source\repos\RentApp\Application\obj\Debug\netcoreapp3.1\Applicati
 C:\Users\Acer\source\repos\RentApp\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
 C:\Users\Acer\source\repos\RentApp\Application\obj\Debug\netcoreapp3.1\Application.dll
 C:\Users\Acer\source\repos\RentApp\Application\obj\Debug\netcoreapp3.1\Application.pdb
+C:\Users\Acer\Desktop\ASP\AS\Application\bin\Debug\netcoreapp3.1\Application.deps.json
+C:\Users\Acer\Desktop\ASP\AS\Application\bin\Debug\netcoreapp3.1\Application.dll
+C:\Users\Acer\Desktop\ASP\AS\Application\bin\Debug\netcoreapp3.1\Application.pdb
+C:\Users\Acer\Desktop\ASP\AS\Application\bin\Debug\netcoreapp3.1\DomainModels.dll
+C:\Users\Acer\Desktop\ASP\AS\Application\bin\Debug\netcoreapp3.1\DomainModels.pdb
+C:\Users\Acer\Desktop\ASP\AS\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
+C:\Users\Acer\Desktop\ASP\AS\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
+C:\Users\Acer\Desktop\ASP\AS\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
+C:\Users\Acer\Desktop\ASP\AS\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\ASP\AS\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
+C:\Users\Acer\Desktop\ASP\AS\Application\obj\Debug\netcoreapp3.1\Application.dll
+C:\Users\Acer\Desktop\ASP\AS\Application\obj\Debug\netcoreapp3.1\Application.pdb

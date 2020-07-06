@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jOo/3O1wsGX5RQ2SmieIdRPXt0YoSSjtndcalRLDHRKNsSpuiAPjeAqi+fdxrEDPBo/zkApbf/fnKna05e+5BA==",
+  "dgSpecHash": "qnd2FVFJruldUal5qN0tCqvuGpZ9gTzyZuDRNxdxR+2HRWENR0nmAQw+5hQR9Mwh09ciYuR+TZOjbig0qCocKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Acer\\source\\repos\\RentApp\\RentApp\\RentApp.csproj",
+  "projectFilePath": "C:\\Users\\Acer\\Desktop\\ASP\\AS\\RentApp\\RentApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

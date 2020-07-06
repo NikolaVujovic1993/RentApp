@@ -5433,11 +5433,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Acer\\source\\repos\\RentApp\\RentApp\\RentApp.csproj",
+      "projectUniqueName": "C:\\Users\\Acer\\Desktop\\ASP\\AS\\RentApp\\RentApp.csproj",
       "projectName": "RentApp",
-      "projectPath": "C:\\Users\\Acer\\source\\repos\\RentApp\\RentApp\\RentApp.csproj",
+      "projectPath": "C:\\Users\\Acer\\Desktop\\ASP\\AS\\RentApp\\RentApp.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Acer\\source\\repos\\RentApp\\RentApp\\obj\\",
+      "outputPath": "C:\\Users\\Acer\\Desktop\\ASP\\AS\\RentApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5456,14 +5456,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Acer\\source\\repos\\RentApp\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\Acer\\source\\repos\\RentApp\\Application\\Application.csproj"
+            "C:\\Users\\Acer\\Desktop\\ASP\\AS\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\Acer\\Desktop\\ASP\\AS\\Application\\Application.csproj"
             },
-            "C:\\Users\\Acer\\source\\repos\\RentApp\\DomainModels\\DomainModels.csproj": {
-              "projectPath": "C:\\Users\\Acer\\source\\repos\\RentApp\\DomainModels\\DomainModels.csproj"
+            "C:\\Users\\Acer\\Desktop\\ASP\\AS\\DomainModels\\DomainModels.csproj": {
+              "projectPath": "C:\\Users\\Acer\\Desktop\\ASP\\AS\\DomainModels\\DomainModels.csproj"
             },
-            "C:\\Users\\Acer\\source\\repos\\RentApp\\Implementation\\Implementation.csproj": {
-              "projectPath": "C:\\Users\\Acer\\source\\repos\\RentApp\\Implementation\\Implementation.csproj"
+            "C:\\Users\\Acer\\Desktop\\ASP\\AS\\Implementation\\Implementation.csproj": {
+              "projectPath": "C:\\Users\\Acer\\Desktop\\ASP\\AS\\Implementation\\Implementation.csproj"
             }
           }
         }

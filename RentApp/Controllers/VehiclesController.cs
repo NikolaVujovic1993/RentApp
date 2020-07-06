@@ -8,6 +8,7 @@ using Application.DataTransfer.RequestDTO;
 using Application.DataTransfer.ResponseDTO;
 using Application.Exceptions;
 using Application.Searches;
+using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -22,9 +23,11 @@ namespace API.Controllers
         private readonly IGetSIngleVehicleCommand _getSingleVehicles;
         private readonly IDeleteVehicleCommand _deleteVehicle;
         private readonly IUpdateVehicleCommand _updateVehicle;
-        public VehiclesController(IInsertVehicleCommand insertVehicle, IGetVehiclesCommand getVehicles, IGetSIngleVehicleCommand getSIngleVehicle, IDeleteVehicleCommand deleteVehicle, IUpdateVehicleCommand updateVehicle)
+        private readonly IMapper _mapper;
+        public VehiclesController(IMapper mapper, IInsertVehicleCommand insertVehicle, IGetVehiclesCommand getVehicles, IGetSIngleVehicleCommand getSIngleVehicle, IDeleteVehicleCommand deleteVehicle, IUpdateVehicleCommand updateVehicle)
         {
-			_insertVehicle = insertVehicle;
+            _mapper = mapper;
+            _insertVehicle = insertVehicle;
             _getVehicles = getVehicles;
 			_getSingleVehicles = getSIngleVehicle;
 			_deleteVehicle = deleteVehicle;
@@ -37,7 +40,8 @@ namespace API.Controllers
             try
             {
                 var vehicles = _getVehicles.Execute(search);
-                return Ok(vehicles);
+                var vehicleList = _mapper.Map<IEnumerable<VehicleResponseDTO>>(vehicles);
+                return Ok(vehicleList);
             }
             catch (Exception)
             {
@@ -52,7 +56,8 @@ namespace API.Controllers
 			try
 			{
 				var vehicle = _getSingleVehicles.Execute(id);
-				return Ok(vehicle);
+                var vehicleDto = _mapper.Map<VehicleResponseDTO>(vehicle);
+				return Ok(vehicleDto);
 			}
 			catch(EntityNotFoundException e)
 			{
